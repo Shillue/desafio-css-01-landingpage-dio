@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   width: 100%;
+   background-color: black;
+   font-family: "Raleway", sans-serif;
+   color:#fff;
+}
+
+/*Header*/
+.banner{
+    width: 100%;
+    height: auto;
+    border-bottom: 0.06rem solid #33A8DB;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 3rem 0;
+    margin: 0.5rem auto;
+    max-width: 38rem;
+}
+
+.banner .banner-content .logo{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.banner .banner-content .logo img{
+    width: 230px;
+}
+
+.banner .banner-content h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    color:transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+   -webkit-background-clip: text;
+}
+
+.banner .banner-content p{
+    color:#fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.banner .banner-content button{
+    color:#31A8DD;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing:4px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 13;
+}
+
+.banner .banner-content button:hover{
+    color: #fff;
+    font-weight: 800;
+    box-shadow:inset 0 4px 10px rgba(0, 0, 0, 0.3), 0 0 12px #33A8DB; /*gostei desse efeito */
+}
+
+/* Main*/
+/*Section: course-content*/
+main #course-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 0.06rem solid #33A8DB;
+    padding: 4rem 2rem;
+}
+
+main #course-content h2{
+    font-size: 2rem;
+    font-weight:bold;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    letter-spacing:4px;
+    color:#33A8DB;  
+    padding: 0.5rem;
+}
+
+main #course-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    max-width: 49.5rem;
+    text-align: center;
+    padding: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+main #course-content .modules-list{
+    margin-bottom: 0.9rem;
+}
+
+main #course-content .modules-list .module{
+    text-align: center;
+    color:#fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    background-color: #252525;
+    border: 1px solid #33A8DB;
+    padding: 1rem 3rem;
+    border-radius: 100px;
+    box-shadow: inset -6px 8px 7px rgba(0, 0, 0, 0.9);
+}
+
+main #course-content .modules-list .module span{
+    color:#33A8DB;
+}
+
+main #course-content .modules-list .module:hover{
+    box-shadow:inset 0 4px 10px rgba(0, 0, 0, 0.3), 0 0 12px #33A8DB;
+    font-weight: 600;
+}
+
+/*Section - transform-world*/
+main #transform-world{
+    background-image: url("../images/woman-code.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0.4rem;
+    height: 35rem;
+    width: 100%;    
+    border-bottom: 0.06rem solid #33A8DB;
+}
+
+main #transform-world p{
+    text-transform: lowercase;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: left;
+    color:#fff;
+    text-shadow: 3px 2px 0px #33A8DB, 0px 4px 4px #000;
+    max-width: 15.25rem;
+    margin:12rem 0rem 5rem 12.1rem;
+   
+}
+
+/*Section - professional-challenges*/
+main #professional-challenges{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 0.06rem solid #33A8DB; 
+}
+
+main #professional-challenges h2{
+    font-size: 2rem;
+    color:#33A8DB;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 5rem auto 2rem auto;
+    max-width: 47rem;
+    text-align: center;
+}
+
+main #professional-challenges img{
+    max-width: 42rem;
+    margin: 2rem auto;   
+}
+
+main #professional-challenges p{
+    max-width: 49.5rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.2rem;
+    margin: 0.5rem auto 4rem auto;
+}
+
+/*footer*/
+footer{
+   text-align: center;
+   padding: 4rem 0;
+   background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(49, 168, 221, 0.2)); 
+}
+
+footer .dio-logo{
+    max-width: 18.5rem;
+    margin-bottom: 0.03rem;
+}
+
+footer p{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#fff;
+}
+
+footer p a{
+    color:#33A8DB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p a:hover{
+    color:yellow;
+}
+
