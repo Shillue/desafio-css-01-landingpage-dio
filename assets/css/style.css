@@ -134,6 +134,7 @@ main #course-content .modules-list .module{
     padding: 1rem 3rem;
     border-radius: 100px;
     box-shadow: inset -6px 8px 7px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
 }
 
 main #course-content .modules-list .module span{
