@@ -18,9 +18,10 @@ O desafio fornece a estrutura HTML pronta, e o objetivo é criar toda a estiliza
 
 ## 📌 Recursos Utilizados
 HTML:
-- Estrutura semântica com tags como <header>, <main>, <section>, <footer>
+- Estrutura semântica com tags como `<header>`, `<main>`, `<section>,`, `<footer>` 
+
 CSS:
-Layout com flexbox
+- Layout com flexbox
 - Gradientes com background-image e background-clip
 - Tipografia estilizada
 - Unidades de medida relativas e absolutas
